@@ -1,15 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import Timer from './Components/Timer';
 import Loading from './Components/Loading';
 import LoadingWithHook from './Components/loading2';
+import Pomodoro from './Components/pomodoro';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App center">
       {/* <Timer /> */}
       {/* <Loading /> */}
-      <LoadingWithHook />
+      {/* <LoadingWithHook /> */}
+      <Pomodoro />
     </div>
   );
 }
